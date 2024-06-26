@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Arkitektur - Architecture HTML Template</title>
+    <title>Quem Somo - TERAKI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -33,81 +35,69 @@
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="assets/images/fav.jpg" alt="Icon">
-    </div>
-    <!-- Spinner End -->
+     <!-- Spinner Start -->
+     <div id="spinner"
+     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+     <div class="spinner-border position-relative text-secondary" style="width: 6rem; height: 6rem;" role="status">
+     </div>
+     <img class="position-absolute top-50 start-50 translate-middle" src="assets/images/logo-alt.png" alt="Icon">
+ </div>
+ <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</a>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-2">
-                    <a class="text-body px-2" href="">Terms</a>
-                    <a class="text-body px-2" href="">Privacy</a>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
+ <!-- Topbar Start -->
+ <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+     <div class="row gx-0 d-none d-lg-flex">
+         <div class="col-lg-7 px-5 text-start">
+             <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+                 <a class="text-body px-2" href="tel:+244943313125"><i
+                         class="fa fa-phone-alt text-primary me-2"></i>+244 943 313 125</a>
+                 <a class="text-body px-2" href="mailto:geral@teraki.ao"><i
+                         class="fa fa-envelope-open text-primary me-2"></i>geral@teraki.ao</a>
+             </div>
+         </div>
+         <div class="col-lg-5 px-5 text-end">
+             <div class="h-100 d-inline-flex align-items-center">
+                 <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                 <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                 <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-whatsapp"></i></a>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="assets/img/icons/icon-1.png" alt="Icon">Arkitektur</h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="sobre.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Our Features</a>
-                        <a href="project.html" class="dropdown-item">Our Projects</a>
-                        <a href="team.html" class="dropdown-item">Team Members</a>
-                        <a href="agendamento.html" class="dropdown-item">Appointment</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contacto.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Appointment</a>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+ <!-- Navbar Start -->
+ <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+     data-wow-delay="0.1s">
+     <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+         <img src="assets/images/logo.jpg" alt="">
+     </a>
+     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarCollapse">
+         <div class="navbar-nav ms-auto p-4 p-lg-0">
+             <a href="index.html" class="nav-item nav-link">Início</a>
+             <a href="sobre.html" class="nav-item nav-link active">Quem Somos</a>
+             <a href="servicos.html" class="nav-item nav-link">Serviços</a>
+             <a href="contacto.html" class="nav-item nav-link">Contactos</a>
+         </div>
+         <a href="agendamento.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">Agendar Reunião</a>
+     </div>
+ </nav>
+ <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-1 text-white animated slideInDown">About Us</h1>
+            <h1 class="display-1 text-white animated slideInDown">Quem Somos</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Página Inicial</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Quem Somos</li>
                 </ol>
             </nav>
         </div>
@@ -121,26 +111,19 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="assets/img/about-1.jpg" alt="">
-                        <img class="img-fluid" src="assets/img/about-2.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/sobre/01.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/sobre/02.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title">About Us</h4>
-                    <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-                    <div class="d-flex align-items-center mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
-                            <h1 class="display-1 mb-n2" data-toggle="counter-up">25</h1>
-                        </div>
-                        <div class="ps-4">
-                            <h3>Years</h3>
-                            <h3>Working</h3>
-                            <h3 class="mb-0">Experience</h3>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5" href="">Read More</a>
+                    <h4 class="section-title">Sobre Nós</h4>
+                    <h1 class="display-5 mb-4">Ter Emoção em Sua Volta</h1>
+                    <p>Somos a <strong class="text-primary">TERAKI – Comércio, Serviços e Arquitetura, LDA</strong>, uma
+                        empresa de arquitetura e engenharia civil localizada em Huambo, Angola.</p>
+                    <p class="mb-4">Fundada por Álvaro Martins Catumbela Calunga e Euclides Amaro Valério Chiengo,
+                        dedicamo-nos a transformar ideias em realidade através de projectos inovadores e
+                        sustentáveis, oferecendo uma ampla gama de serviços que incluem gestão de projectos,
+                        fiscalização de obras, manutenção de edifícios e muito mais.</p>
                 </div>
             </div>
         </div>
@@ -153,43 +136,45 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">Why Choose Us!</h4>
-                    <h1 class="display-5 mb-4">Why You Should Trust Us? Learn More About Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" src="assets/img/icons/icon-2.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Design Approach</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                    <h4 class="section-title">OBJECTIVOS</h4>
+                    <h1 class="display-5 mb-4">Saiba Quais São os Nossos Objectivos</h1>
+                    <p class="mb-4">Estabelecemos metas claras e alcançáveis para impulsionar nosso crescimento
+                        sustentável, inovar constantemente em nossos serviços e fortalecer nosso compromisso com a
+                        excelência e a satisfação dos clientes.</p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-bolt fa-3x text-primary"></i>
+                                    <div class="ms-4">
+                                        <h3>Atender e satisfazer as necessidades dos clientes com rapidez e qualidade.</h3>
+                                        <p class="mb-0">Entregamos projectos arquitetônicos e serviços de construção que excedem as expectativas, garantindo a máxima satisfação dos nossos clientes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-chart-line fa-3x text-primary"></i>
+                                    <div class="ms-4">
+                                        <h3>Contribuir para o crescimento econômico do país.</h3>
+                                        <p class="mb-0">Soluções sob medida para cada cliente, com atenção aos detalhes e foco na satisfação total.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-handshake fa-3x text-primary"></i>
+                                    <div class="ms-4">
+                                        <h3>Criar um vínculo duradouro com os nossos clientes.</h3>
+                                        <p class="mb-0">Nosso compromisso inabalável com a excelência garante que todos os projectos sejam realizados com os mais altos padrões de qualidade e precisão.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" src="assets/img/icons/icon-3.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Innovative Solutions</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" src="assets/img/icons/icon-4.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Project Management</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="feature-img">
-                        <img class="img-fluid" src="assets/img/about-2.jpg" alt="">
-                        <img class="img-fluid" src="assets/img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/features/02.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/features/01.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -198,75 +183,110 @@
     <!-- Feature End -->
 
 
+
+
+    <div class="container-xxl py-5">
+        <div class="container pt-5">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                        <div class="fact-icon">
+                            <i class="fas fa-heart fa-3x"></i>
+                        </div>
+                        <h3 class="mb-3">Missão</h3>
+                        <p class="mb-0">Promover o bem-estar e a qualidade de vida dos nossos clientes e colaboradores
+                            por intermédio de projetos arquitetônicos sustentáveis e econômicos, e serviços diversos que
+                            incluem saúde e educação financeira.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                        <div class="fact-icon">
+                            <i class="fas fa-eye fa-3x"></i>
+                        </div>
+                        <h3 class="mb-3">Visão</h3>
+                        <p class="mb-0">Ser um grupo multifacético e reconhecido a nível nacional e internacional,
+                            tornando-nos uma marca de referência que responde às necessidades dos nossos clientes e
+                            colaboradores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                        <div class="fact-icon">
+                            <i class="fas fa-balance-scale fa-3x"></i>
+                        </div>
+                        <h3 class="mb-3">Valores</h3>
+                        <p class="mb-0 text-left justify-content-start">
+                            <i class="fas fa-check text-primary me-3"></i>Transparência: Honestidade e clareza em todas
+                            as interações.<br>
+                            <i class="fas fa-check text-primary me-3"></i>Esforço: Dedicação contínua para atender às
+                            necessidades dos clientes.<br>
+                            <i class="fas fa-check text-primary me-3"></i>Rapidez: Cumprimento rigoroso dos prazos com
+                            excelência.<br>
+                            <i class="fas fa-check text-primary me-3"></i>Amor ao Cliente: Prioridade máxima ao
+                            bem-estar dos clientes.<br>
+                            <i class="fas fa-check text-primary me-3"></i>Kwanza: Valorização da moeda nacional.<br>
+                            <i class="fas fa-check text-primary me-3"></i>Inteligência: Investimento contínuo em
+                            qualidade, formação e inovação.<br>
+                            <i class="fas fa-check text-primary me-3"></i>3C: Ser Curtos, Claros e Concisos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Team Members</h4>
-                <h1 class="display-5 mb-4">We Are Creative Architecture Team For Your Dream Home</h1>
+                <h4 class="section-title">Membros da Empresa</h4>
+                <h1 class="display-5 mb-4">Conselho Administrativo da Empresa</h1>
             </div>
             <div class="row g-0 team-items">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="assets/img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="assets/images/membros/alvaro.jpg" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Architect Name</h3>
-                            <span class="text-primary">Designation</span>
+                            <h3 class="mt-2">Álvaro Martins Catumbela Calunga </h3>
+                            <span class="text-primary">Director Geral</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="assets/img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="assets/images/membros/junior1.jpg" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Architect Name</h3>
-                            <span class="text-primary">Designation</span>
+                            <h3 class="mt-2">Euclides Junior Chiengo</h3>
+                            <span class="text-primary">Director Administrativo</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="assets/img/team-3.jpg" alt="">
+                            <img class="img-fluid" src="assets/images/membros/pina.jpg" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Architect Name</h3>
-                            <span class="text-primary">Designation</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="assets/img/team-4.jpg" alt="">
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Architect Name</h3>
-                            <span class="text-primary">Designation</span>
+                            <h3 class="mt-2">Pina Tchicomo Jeremias</h3>
+                            <span class="text-primary">Director Técnico</span>
                         </div>
                     </div>
                 </div>
@@ -274,46 +294,49 @@
         </div>
     </div>
     <!-- Team End -->
-        
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Address</h3>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                    <h3 class="text-light mb-4">Endereço</h3>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Rua Garcia da Horta, Cidade
+                        Baixa, Huambo</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+244 943 313 125</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+244 932 210 482</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>geral@teraki.ao</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Services</h3>
-                    <a class="btn btn-link" href="">Architecture</a>
-                    <a class="btn btn-link" href="">3D Animation</a>
-                    <a class="btn btn-link" href="">House Planning</a>
-                    <a class="btn btn-link" href="">Interior Design</a>
-                    <a class="btn btn-link" href="">Construction</a>
+                    <h3 class="text-light mb-4">Serviços</h3>
+                    <a class="btn btn-link" href="">Fiscalização de Obras</a>
+                    <a class="btn btn-link" href="">Elaboração de Projectos</a>
+                    <a class="btn btn-link" href="">Manutenção de Edifícios</a>
+                    <a class="btn btn-link" href="">Reparação de Ar Condicionados</a>
+                    <a class="btn btn-link" href="">Manutenção de Rede Eléctrica</a>
+                    <a class="btn btn-link" href="">Estudos de Viabilidade para Projectos Sustentáveis</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Quick Links</h3>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h3 class="text-light mb-4">Atalhos</h3>
+                    <a class="btn btn-link" href="">Quem Somos</a>
+                    <a class="btn btn-link" href="">Contactos</a>
+                    <a class="btn btn-link" href="">Agendar Reunião</a>
+                    <a class="btn btn-link" href="">Projectos</a>
+                    <a class="btn btn-link" href="">Nossos Serviços</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Newsletter</h3>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Subscreva a nossa Newsletter e receba notícias excluisivas.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscrever</button>
                     </div>
                 </div>
             </div>
@@ -322,11 +345,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a href="#">TERAKI</a>, Todos os Direitos Reservados.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        Desenvolvido por <a href="https://mulemba.ao">Mulemba</a>
+
                     </div>
                 </div>
             </div>
